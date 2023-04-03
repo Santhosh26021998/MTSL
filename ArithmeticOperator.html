@@ -1,0 +1,47 @@
+<html>
+<!--- HI-->
+<head>
+    <title>ARITHMATIC OPERATOR</title>
+</head>
+
+<body>
+    <button onclick="add()">ADDITION</button><br><br>
+    <button onclick="sub()">SUBTRACTION</button><br><br>
+    <button onclick="mul()">MULTIPLICATION</button><br><br>
+    <button onclick="divi()">DIVISION</button><br><br>
+    <button onclick="modul()">MODULUS</button>
+
+    <!-- <script src="./js/arithmetic.js"></script> -->
+    <script>
+        let a = 10;
+        let b = 2;
+        let c;
+        function add() {
+            let c = a + b;
+            alert("ADDITION OF TWO VALUES:" + c);
+        }
+        function sub() {
+            let c = a - b;
+            alert("SUBTRACTION OF TWO VALUES:" + c);
+        }
+        function mul() {
+            let c = a * b;
+            alert("MULTIPLICATION OF TWO VALUES:" + c);
+        }
+        function divi() {
+            let c = a / b;
+            alert("DIVISION OF TWO VALUES:" + c);
+        }
+        function modul() {
+            let c = a % b;
+            alert("MODULUS OF TWO VALUES:" + c);
+        }
+        add();
+        sub();
+        mul();
+        divi();
+        modul();
+    </script>
+</body>
+
+</html>
